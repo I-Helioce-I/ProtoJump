@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         isDead = true;
         Debug.Log("PlayerIsDEa");
+        GameManager.Instance.GameOverScreen();
     }
 
     public float GetScore()
